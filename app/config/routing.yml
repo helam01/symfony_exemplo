@@ -1,0 +1,8 @@
+#app:
+#    resource: "@AppBundle/Controller/"
+#    type:     annotation
+
+
+route_nova_pagina:
+    path: /nova-pagina
+    defaults : {_controller : AppBundle:Site:pagina}
